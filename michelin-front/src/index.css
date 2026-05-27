@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* ── 기본 리셋 ──────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  /* ✅ 한글 폰트 추가 - 영문은 기존 폰트, 한글은 Pretendard로 자동 분기 */
+  font-family: 'Pretendard Variable', Pretendard, system-ui, sans-serif;
+  background: #fdfdfd;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── 기본 태그 리셋 ─────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: unset;
+  letter-spacing: unset;
+  font-weight: unset;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

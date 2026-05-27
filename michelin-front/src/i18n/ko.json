@@ -1,0 +1,38 @@
+{
+  "category_all":      "전체",
+  "category_korean":   "한식",
+  "category_japanese": "일식",
+  "category_chinese":  "중식",
+  "category_western":  "양식",
+  "category_asian":    "아시안",
+
+  "map_locate_title":           "내 위치로 이동",
+  "map_no_results":             "검색 결과 없음",
+  "map_restaurant_image_alt":   "식당 이미지",
+  "map_address":                "주소",
+  "map_phone":                  "전화",
+  "map_view_detail":            "상세보기 →",
+  "map_back_to_list":           "목록으로 ←",
+
+  "error_search":               "검색 중 오류가 발생했습니다.",
+  "error_location_unsupported": "이 브라우저는 위치 정보를 지원하지 않습니다.",
+  "error_location_denied":      "위치 정보를 가져올 수 없습니다. 권한을 확인해주세요.",
+
+  "notices_title":  "공지사항",
+  "notices_empty":  "등록된 공지사항이 없습니다.",
+
+  "nav_restaurants": "레스토랑",
+  "nav_map":         "지도",
+  "nav_notices":     "공지사항",
+  "nav_my_page":     "마이페이지",
+  "nav_login":       "로그인",
+  "nav_logout":      "로그아웃",
+  "nav_join":        "회원가입",
+
+  "chat_greeting":     "안녕하세요! 부산 미슐랭 가이드 챗봇입니다.\n레스토랑 추천, 등급 안내 등 궁금한 점을 물어보세요.",
+  "chat_placeholder":  "메시지를 입력하세요...",
+  "chat_send":         "전송",
+  "chat_loading":      "답변 생성 중...",
+  "chat_error":        "오류가 발생했습니다. 다시 시도해주세요.",
+  "chat_title":        "CHAT"
+}

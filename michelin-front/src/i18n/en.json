@@ -1,0 +1,38 @@
+{
+  "category_all":      "All",
+  "category_korean":   "Korean",
+  "category_japanese": "Japanese",
+  "category_chinese":  "Chinese",
+  "category_western":  "Western",
+  "category_asian":    "Asian",
+
+  "map_locate_title":           "Go to my location",
+  "map_no_results":             "No results found",
+  "map_restaurant_image_alt":   "Restaurant image",
+  "map_address":                "ADDRESS",
+  "map_phone":                  "PHONE",
+  "map_view_detail":            "VIEW DETAIL →",
+  "map_back_to_list":           "BACK TO LIST ←",
+
+  "error_search":               "Search failed. Please try again.",
+  "error_location_unsupported": "Geolocation is not supported by this browser.",
+  "error_location_denied":      "Unable to retrieve location. Please check permissions.",
+
+  "notices_title":  "Notices",
+  "notices_empty":  "No notices available.",
+
+  "nav_restaurants": "RESTAURANTS",
+  "nav_map":         "MAP",
+  "nav_notices":     "NOTICES",
+  "nav_my_page":     "MY PAGE",
+  "nav_login":       "LOGIN",
+  "nav_logout":      "LOGOUT",
+  "nav_join":        "JOIN",
+
+  "chat_greeting":     "Hello! I'm the Busan Michelin Guide chatbot.\nAsk me anything about restaurant recommendations or star ratings.",
+  "chat_placeholder":  "Type a message...",
+  "chat_send":         "Send",
+  "chat_loading":      "Generating response...",
+  "chat_error":        "An error occurred. Please try again.",
+  "chat_title":        "CHAT"
+}

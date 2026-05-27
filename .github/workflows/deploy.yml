@@ -1,0 +1,29 @@
+name: react deploy   
+
+on:
+  push:
+    branches: [ main ]   
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest   
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: React build
+        run: |
+          cd frontend        
+          npm install        
+          npm run build      
+
+      - name: SSH key 생성
+        run: |
+          echo "${{ secrets.EC2_SSH_KEY }}" > was.pem   
+          chmod 600 was.pem                             
+
+      - name: build 전송
+        run: |
+          scp -o StrictHostKeyChecking=no -i was.pem -r michelin-front/dist/* \
+          ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/var/www/html/
